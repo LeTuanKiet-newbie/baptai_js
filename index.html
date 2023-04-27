@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bài Tập JS</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <div class="tinhLuong">
+      <h2 class="text-primary">Tính Lương</h2>
+      <input id="luongNgay" type="text" placeholder="Lương ngày" />
+      <input id="soNgay" type="text" placeholder="Số ngày" />
+      <br />
+      <button
+        type="button"
+        id="tinhLuong"
+        class="btn btn-primary rounded"
+        alt="..."
+      >
+        Tính Lương
+      </button>
+      <div>
+        <h3>Lương:</h3>
+        <p id="luongNhanVien"></p>
+      </div>
+    </div>
+
+    <!-- Tính giá trị trung bình -->
+
+    <div class="tinhTrungBinhCong">
+      <h2 class="text-primary">Tính Trung Bình Cộng</h2>
+      <input type="text" class="soHang" placeholder="số Hạng" />
+      <input type="text" class="soHang" placeholder="số Hạng" />
+      <input type="text" class="soHang" placeholder="số Hạng" />
+      <input type="text" class="soHang" placeholder="số Hạng" />
+      <input type="text" class="soHang" placeholder="số Hạng" />
+      <br />
+      <button
+        type="button"
+        id="tinhTrungBinhCong"
+        class="btn btn-primary rounded"
+      >
+        Tính Trung Bình
+      </button>
+      <div>
+        <h3>Trung Bình Cộng:</h3>
+        <p id="trungBinhCong"></p>
+      </div>
+    </div>
+
+    <!-- Quy đổi tiền tệ -->
+
+    <div class="quyDoiTienTe">
+      <h2 class="text-primary">Đổi Tiền USD sang VND</h2>
+      <input type="text" id="soTienUsd" placeholder="Nhập số USD" />
+      <br />
+      <button type="button" id="quyDoi" class="btn btn-primary rounded">
+        Quy đổi VND
+      </button>
+
+      <div id="vnd"></div>
+    </div>
+
+    <!-- Tính diện tích chu vi hình chữ nhật -->
+
+    <div class="hinhChuNhat">
+      <h2 class="text-primary">Tính chu vi diện tích hình chữ nhật</h2>
+      <input
+        type="text"
+        id="chieuDai"
+        placeholder="Chiều dài chữ nhật"
+        value=""
+      />
+      <input
+        type="text"
+        id="chieuRong"
+        placeholder="Chiều rộng chữ nhật"
+        value=""
+      />
+      <br />
+      <button type="button" id="tinh" class="btn btn-primary rounded">
+        Tính
+      </button>
+
+      <div id="ketQua">
+        <div>
+          <h3>Diện Tích:</h3>
+          <p id="dienTich"></p>
+        </div>
+        <div>
+          <h3>Chu Vi:</h3>
+          <p id="chuVi"></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tính tổng 2 ký số -->
+
+    <div class="haiKySo">
+      <h2 class="text-primary">Tính Tổng 2 Ký số</h2>
+      <input type="text" id="soDuocChia" placeholder="Ký số" value="" />
+      <br />
+      <button type="button" id="tongHaiKySo" class="btn btn-primary rounded">
+        Tính
+      </button>
+      <div>
+        <h3>Kết quả:</h3>
+        <p id="ketQuaKySo"></p>
+      </div>
+    </div>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+      integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./script/index.js"></script>
+  </body>
+</html>
